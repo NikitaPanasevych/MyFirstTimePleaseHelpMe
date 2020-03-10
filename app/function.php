@@ -8,9 +8,7 @@ function dd($data, $stop = null){
     echo "</pre>";
 
     if($stop!=null && $stop!=0) exit();
-}
-
-
+}echo "Ura";
 function connect(){
     $ar = get_param();
 
